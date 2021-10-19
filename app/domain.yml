@@ -1,0 +1,48 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - reset_password
+  - about_predict_plus
+  - Pass_to_human
+  - Support_ticket
+
+responses:
+  utter_greet:
+  - text: "Hello! How are you today"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a chat bot for Predict Plus created by Team Upsilon"
+  
+  utter_reset_password: 
+  - text: "Sure we will reset your password."
+
+  utter_predict_plus:
+  - text: "Predict plus is an application which shows total assets & liabilities of the customer. On top of this it uses AI-ML to recommend the best financial instrument"
+  
+  utter_Pass_to_human:
+  - text: "Sure we will pass the chat to human operator. If you can please raise a ticket after getting into support section of application"
+  
+  utter_Support_ticket:
+  - text: "Can you please visit support section of the application and raise a Ticket"
+  
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
